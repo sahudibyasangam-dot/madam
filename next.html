@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bestie 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 400px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .card h1 {
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 50px;
+      background: #e63946;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff4d6d;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.8);}
+      to { opacity: 1; transform: scale(1);}
+    }
+
+    .hidden-message {
+      display: none;
+      margin-top: 15px;
+      color: #6a0572;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hey Bestie! 🌸</h1>
+    <p>You are a kutti 💕</p>
+    <button class="btn" onclick="window.location.href='sweet1.html'">Click for Surprise 🎁</button>
+    
+  </div>
+
+</body>
+</html>
