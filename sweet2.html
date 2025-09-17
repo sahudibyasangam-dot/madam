@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+    }
+    header {
+      background: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .sweet-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+    .sweet-card:hover {
+      transform: scale(1.30);
+    }
+    .sweet-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .sweet-card h3 {
+      margin: 10px 0 5px;
+    }
+    footer {
+      background: #ff6f61;
+      text-align: center;
+      padding: 15px;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍬 Sweet Paradise 🍭</h1>
+    <p>All Types of Sweets Available Here</p>
+  </header>
+
+
+
+  <div class="container">
+    <div class="sweet-card">
+      <img src="https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2016/10/gulab-jamun-using-mix.jpg?w=1200&ssl=1" alt="Gulab Jamun">
+      <h3>Gulab Jamun</h3>
+      <p>Soft and juicy milk-based sweet</p>
+    </div>
+    <div class="sweet-card">
+      <img src="https://madhurasrecipe.com/wp-content/uploads/2023/10/Rasgulla-Featured-Image.jpg" alt="Rasgulla">
+      <h3>Rasgulla</h3>
+      <p>Spongy delight soaked in sugar syrup</p>
+    </div>
+    <div class="sweet-card">
+      <img src="https://i.ndtvimg.com/i/2017-08/kaju-barfi_650x400_71501923806.jpg" alt="Kaju Katli">
+      <h3>Kaju Katli</h3>
+      <p>Rich cashew-based fudge</p>
+    </div>
+    <div class="sweet-card">
+      <img src="https://madhurasrecipe.com/wp-content/uploads/2023/09/Ladu-Featured-Image.jpg" alt="Ladoo">
+      <h3>Ladoo</h3>
+      <p>Traditional festive sweet</p>
+    </div>
+    <div class="sweet-card">
+      <img src="https://i.ndtvimg.com/i/2017-08/kaju-barfi_650x400_71501923806.jpg" alt="Barfi">
+      <h3>Barfi</h3>
+      <p>Creamy and delicious milk sweet</p>
+    </div>
+    <div class="sweet-card">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/jalebi-recipe.jpg" alt="Jalebi">
+      <h3>Jalebi</h3>
+      <p>Crispy, juicy & swirly sweet</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sweet Paradise | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
